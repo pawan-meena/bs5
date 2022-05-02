@@ -331,3 +331,213 @@ text-align: left;
 width: 380px;
 color:white;
 }
+/* =======================page-5============= */
+.page-3-span-1-t{
+    position: absolute;
+    left: -31px;
+    top: -2px;
+}.exit{background: #FFFFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:black    
+}
+.submit{background: #FFFFFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+color:black;    
+}.asqk{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+text-align: left;
+color: #FFFFFF;
+}.font-t {
+    font-size: 22px;
+    padding-left: 3.6rem;  
+}
+.r-ques{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}.none-q{font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;background: rgba(35, 37, 39, 1);
+color: #ffffff;
+    
+
+}.q-green{
+background: rgba(167, 249, 63, 1);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+
+}.q-red{font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: red;;
+    
+
+}
+
+.none-qp-1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+
+.active-page{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.arrow{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #ffffff;
+}
+
+.none-qp-1:hover{
+    color:white;
+    transition-duration: 100ms;
+    opacity: 1;
+}
+.radio{
+    top: 12px;
+    position: absolute;
+}
+.ope .form-check-input:checked {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.ope .form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: #fff0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(255 255 255);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+.n-t{
+    bottom: 2rem;
+    position: fixed;
+    right: 3rem;
+  
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.alert{
+    width: fit-content;
+}
+.n-timer{
+    font-size: 12px;
+    color: black;
+}
+.ingo-a{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color:white
+}
+.info-p{
+    background: #222527;
+}.timer-right{
+    position: absolute;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    bottom: 5px;
+    right: 11px;
+
+}.w-111{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+color: red;    
+
+}
+
+.ww-1{
+
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+color:white;    
+opacity: .5;
+}
+
+.w-1111 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+color: yellow;  
+}
