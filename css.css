@@ -2,7 +2,6 @@
 .myclasssec{
     width: 100%;
     height:100%; 
-  
 background: #131415;
 }
 
@@ -178,4 +177,157 @@ text-align: center;
 
 .accordion-item .btn-join-exam:hover {
     color: #000000;
+}
+
+/* ==================================================== */
+.page-3{
+width: 100%;
+height:100%; 
+background: #131415;
+}
+.page-3 .page-3-p{
+    color: #FFFFFF;
+}
+
+.page-3 .page-3-span-2 {
+     width: 62px;
+height: 62px; overflow: hidden;
+}
+.page-3-1-p-2 .page-3-1-span-2{
+    color:#FFFFFF;
+}
+.page-3-span-3{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+
+
+}
+.General-Settings{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #ffffff;
+}
+
+
+
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    border: solid white 3px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff0;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    border: solid black 3px;
+    bottom: 1.5px;
+    background-color: #000000;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  input:checked + .slider {
+    border: solid white 3px;
+    background-color: #ffffff;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .setting-sub{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #FFFFFF;    
+  }
+
+  .bgcolor-setting{
+    background:#222527;
+  }
+
+  /* =================================================== */
+  .page-3-p-4{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .date-r{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: right;
+    color: #FFFFFF;
+  }
+.time-r{
+    color:white;
+    top: 23px;
+    right: 0px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+}
+.r-p{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+width: 380px;
+color:white;
 }
