@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.myclasssec{
+    width: 100%;
+    height:100%; 
+  
+background: #131415;
+}
+
+body{
+    background: #131415; 
+    overflow: hidden;
+}
+.myclasssec-1{
+    width: 100%;
+    height: 100%; 
+    background: #131415;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }.myclasssec p{
+       color: #828283;
+       font-family: 'Poppins', sans-serif;
+       text-align: left;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 25px;
+       line-height: 32px;
+    }.hedingclass{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+
+        
+    }
+
+    .pro-end{position: relative;
+        text-align: right !important;
+        color: white !important;
+    }
+    .pro-end .span-n{
+        right: 6rem;
+        position: absolute;
+        text-align: right !important;
+        color: #FFFFFF80 !important;
+        top: 2rem;
+    }
+    .name{
+        right: 6rem;
+        position: absolute;
+    }
+    .img-p{
+        position: absolute;
+        right: 1rem;
+        top: 0.4rem;
+    }
+/* =========================================page-2======================================= */
+
+body{
+    background: #131415; 
+    overflow:scroll;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 3rem;
+}
+.expiteam{
+  
+}.accordion-item{
+ border-radius: 0px;
+ background: #222527;
+}.accordion-button{
+    background: #222527 !important;  
+    color :white
+}.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}.accordion-button:focus {
+    z-index: 3;
+   border-color: #ffffff;
+    outline: 0px;
+    box-shadow: none; 
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+     transform: rotate(-180deg);
+}
+
+.accordion-body{
+    color:#ffffff
+}
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+
+}
+
+.accordion-item .btn:hover {
+    color: #ffffff;
+}
+.heading-h{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.heading-p{
+    position: absolute;
+    left: 0rem;
+    top: 1.8rem;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  color: #FFFFFF80  ;
+}
+.accordion-body .container .row{
+    align-items: center;
+    background: rgba(72, 76, 80, 1);
+}
+.accordion-body .container .row p{ 
+    background: rgba(72, 76, 80, 1);
+    color: #FFFFFF;
+}
+.accordion-body .container .row p{ 
+    background: rgba(72, 76, 80, 1);
+    color: #FFFFFF;font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    
+}
+
+.accordion-body .container .row p span{ 
+    background: rgba(72, 76, 80, 1);
+    color: #FFFFFF;
+}
+.accordion-body .container .row .btn-completed{ 
+    background: rgba(255, 255, 255, 0.5);
+    color:rgba(19, 20, 21, 1);
+  
+    width: 100%;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.btn-join-exam{
+    background: #FFFFFF;
+    color:#131415;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.scroll-height{
+    height:460px;
+    overflow-y: scroll;
+}
+
+.accordion-item .btn-join-exam:hover {
+    color: #000000;
+}
